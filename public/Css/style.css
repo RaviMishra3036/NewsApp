@@ -1,0 +1,54 @@
+.background {
+    background: linear-gradient(to right, rgb(123, 123, 123), rgb(105, 105, 105), black);
+}
+
+.active {
+    border-bottom: 5px solid white;
+    background-color: gray !important;
+}
+
+.card-title {
+    font-size: 1rem;
+    height: 90px;
+}
+
+.source-date {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -20px;
+}
+
+.source-date p {
+    font-size: 0.7rem;
+}
+.card-text{
+    font-size: 0.9rem;
+    height: 210px;
+}
+@media only screen and (min-width:0) and (max-width:575px) {
+    .card-title {
+        height: 50px;
+    }
+    .card-text{
+       
+        height: 80px;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:767px) {
+    .card-title {
+        height: 60px;
+    }
+    .card-text{
+       
+        height: 150px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1199px) {
+    .card-title {
+        height: 90px;
+    }
+    .card-text{
+       
+        height: 190px;
+    }
+}
