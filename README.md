@@ -6,7 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 ## News API 
+
 Parsonal API Calling [Create NewsApp API](https://newsapi.org/)
+
+Change API Link Paragraph Number(3)
+
+![Logo](https://github.com/RaviMishra3036/NewsApp/blob/master/code.png)
 
 ### `npm start`
 
